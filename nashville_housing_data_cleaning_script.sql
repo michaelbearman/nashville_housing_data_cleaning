@@ -16,7 +16,7 @@ UPDATE `geometric-vim-314715.nashville_data_cleaning.nashville_data`
 SET SaleDateConverted = PARSE_DATE("%B %e, %Y", SaleDate)
 WHERE TRUE
 
---Populate Property Address Data (NOT COMPLETE)
+--Populate Property Address Data
 
 SELECT *
 FROM `geometric-vim-314715.nashville_data_cleaning.nashville_data`
